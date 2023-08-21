@@ -10,6 +10,7 @@
 }
 .places .articles{
     display: flex;
+    justify-content: center ;
     flex-wrap: wrap;
 }
 .places article h2{
