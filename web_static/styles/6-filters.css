@@ -22,7 +22,7 @@
 button:hover{
     opacity: 0.9;
 }
-.locations, .amenities {
+.locations, .amenitie {
     height: 100%;
     width: 25%;
     display: flex;
@@ -46,7 +46,7 @@ button:hover{
     font-size: 16px;
 }
 .filters .locations .popover,
-.filters .amenities .popover{
+.filters .amenitie .popover{
     display: none;
     position: absolute;
     border: 1px solid #DDDDDD;
@@ -57,7 +57,7 @@ button:hover{
     margin-left: -30px;
 }
 .filters .locations .popover ul,
-.filters .amenities .popover ul{
+.filters .amenitie .popover ul{
     list-style: none;
 }
 .filters .locations .popover ul{
@@ -68,7 +68,7 @@ button:hover{
     padding-left: 30px;
     margin-bottom: 0;
 }
-.amenities:hover .popover,
+.amenitie:hover .popover,
 .locations:hover .popover{
     display: block;
 }
