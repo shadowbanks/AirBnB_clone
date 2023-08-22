@@ -90,6 +90,13 @@ li{
     font-size: 16px;
     border-bottom: 1px solid #DDDDDD;
 }
+.reviews ul li h3{
+    font-size: 14px;
+}
+.reviews ul li p{
+    font-size: 12px;
+}
+
 .tv li::before{
     content: url("../images/icon_tv.png");
 }
@@ -105,7 +112,4 @@ li{
 .wifi li{
     display: flex;
     align-items: center;
-}
-
-.reviews ul{
 }
