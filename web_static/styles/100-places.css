@@ -97,19 +97,19 @@ li{
     font-size: 12px;
 }
 
-.tv li::before{
+.tv::before{
     content: url("../images/icon_tv.png");
 }
-.wifi li::before{
+.wifi::before{
     content: url("../images/icon_wifi.png");
 }
-.pets li::before{
+.pets::before{
     content: url("../images/icon_pets.png");
 }
 
-.tv li,
-.pets li,
-.wifi li{
+.tv,
+.pets,
+.wifi{
     display: flex;
     align-items: center;
 }
